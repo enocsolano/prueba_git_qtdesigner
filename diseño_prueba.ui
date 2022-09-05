@@ -95,6 +95,13 @@
             <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,9">
              <item>
               <widget class="QFrame" name="frame_inicio_head">
+               <property name="styleSheet">
+                <string notr="true">QFrame{
+background-color: rgb(30, 117, 255);
+color: #fff;
+border-radius: 10px;
+}</string>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::StyledPanel</enum>
                </property>
@@ -140,6 +147,12 @@
              </item>
              <item>
               <widget class="QFrame" name="frame_inicio_cuerpo">
+               <property name="styleSheet">
+                <string notr="true">QFrame{
+background-color: #fff;
+border-radius: 10px;
+}</string>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::StyledPanel</enum>
                </property>
@@ -175,6 +188,13 @@
                 </item>
                 <item row="1" column="1">
                  <widget class="QFrame" name="frame_2">
+                  <property name="styleSheet">
+                   <string notr="true">QFrame{
+border: 1px solid;
+background-color: rgb(30, 117, 255);
+color: #fff;
+}</string>
+                  </property>
                   <property name="frameShape">
                    <enum>QFrame::StyledPanel</enum>
                   </property>
@@ -210,6 +230,9 @@
                    </item>
                    <item row="1" column="0">
                     <widget class="QLabel" name="label_4">
+                     <property name="styleSheet">
+                      <string notr="true">border: 0;</string>
+                     </property>
                      <property name="text">
                       <string>USUARIO</string>
                      </property>
