@@ -89,7 +89,7 @@
          <item>
           <widget class="QStackedWidget" name="stackedWidget">
            <property name="currentIndex">
-            <number>0</number>
+            <number>1</number>
            </property>
            <widget class="QWidget" name="page_inicio">
             <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,9">
@@ -304,7 +304,9 @@
               <widget class="QFrame" name="frame_ajustes_head">
                <property name="styleSheet">
                 <string notr="true">QFrame{
-background-color: #fff;
+background-color: rgb(30, 117, 255);
+color: #fff;
+border-radius: 10px;
 }</string>
                </property>
                <property name="frameShape">
@@ -396,6 +398,8 @@ background-color: #fff;
                    <string notr="true">QFrame{
 border: 1px solid;
 border-radius: 10px;
+background-color: rgb(30, 117, 255);
+color: #fff;
 }</string>
                   </property>
                   <property name="frameShape">
