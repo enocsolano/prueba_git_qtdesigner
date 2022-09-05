@@ -89,7 +89,7 @@
          <item>
           <widget class="QStackedWidget" name="stackedWidget">
            <property name="currentIndex">
-            <number>1</number>
+            <number>0</number>
            </property>
            <widget class="QWidget" name="page_inicio">
             <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,9">
@@ -151,6 +151,7 @@ border-radius: 10px;
                 <string notr="true">QFrame{
 background-color: #fff;
 border-radius: 10px;
+border: 1px solid;
 }</string>
                </property>
                <property name="frameShape">
